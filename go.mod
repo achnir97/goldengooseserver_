@@ -3,7 +3,9 @@ module github.com/achnir97/server
 go 1.18
 
 require (
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/joho/godotenv v1.5.1
+	golang.org/x/crypto v0.6.0
 	gorm.io/driver/postgres v1.4.8
 	gorm.io/gorm v1.24.5
 )
@@ -14,6 +16,5 @@ require (
 	github.com/jackc/pgx/v5 v5.3.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
-	golang.org/x/crypto v0.6.0 // indirect
 	golang.org/x/text v0.7.0 // indirect
 )
